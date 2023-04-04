@@ -13,13 +13,13 @@ import base64  # 解码二维码图片
 
 # 全局变量是否已经初始化
 is_init = False
-pushmode = "0"  # 0 不开启 1 钉钉 2 微信（并未实现） 3 Server 酱 4 pluspush 5 Telegram Bot 6 Web Dashboard
+pushmode = "6"  # 0 不开启 1 钉钉 2 微信（并未实现） 3 Server 酱 4 pluspush 5 Telegram Bot 6 Web Dashboard
 nohead = False
 accesstoken = ""
 topic = ''
 secret = ""
 islooplogin = False
-zhuanxiang = False
+zhuanxiang = True
 scheme = ""
 lock = False
 stime = False
